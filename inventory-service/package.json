@@ -1,0 +1,21 @@
+{
+  "name": "inventory-service",
+  "version": "1.0.0",
+  "description": "The Inventory Service is a module of the Distributed Microservices Platform. It is responsible for managing product inventory, including functionalities to fetch all items and add new items.",
+  "main": "index.js",
+ "scripts": {
+  "start": "node src/app.js",
+  "dev": "nodemon src/app.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1",
+    "mongoose": "^8.24.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

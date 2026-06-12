@@ -1,0 +1,21 @@
+{
+  "name": "payment-service",
+  "version": "1.0.0",
+  "description": "The **Payment Service** is a core module of the Distributed Microservices Platform. It handles the processing of financial transactions, integration with payment gateways, and transaction data storage. Designed to be scalable and modular, the service supports various payment methods and integrates seamlessly with the rest of the microservices.",
+  "main": "app.js",
+ "scripts": {
+  "start": "node src/app.js",
+  "dev": "nodemon src/app.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1",
+    "mongoose": "^8.24.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

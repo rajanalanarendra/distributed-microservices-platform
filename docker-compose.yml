@@ -1,4 +1,3 @@
-version: '3.8'
 
 services:
   # API Gateway
@@ -6,10 +5,10 @@ services:
     build:
       context: ./api-gateway
     ports:
-      - "4000:4000"
+      - "3000:3000"
     environment:
       - NODE_ENV=development
-      - API_GATEWAY_PORT=4000
+      - API_GATEWAY_PORT=3000
     depends_on:
       - user-service
       - inventory-service
